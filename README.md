@@ -2,7 +2,7 @@
 
 This repository contains functions for using community detection analysis to cluster data.
 
-cda_clustering_corr constructs the network based on the correlaitons between observations. Importantly this function expects that the data will be organzied such that the rows are individual observations and the columns are the features.
+cda_clustering_corr constructs the network based on the correlaitons between observations. Importantly this function expects that the data will be organzied such that the rows are individual observations and the columns are the features. For the types of correlations that can be used see documentation for cor() in R. 
 
 cda_clustering_dist constructs the network based on the euclidean distances between the observations. 
 
