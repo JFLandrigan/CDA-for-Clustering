@@ -1,4 +1,4 @@
-cda_clustering_corr <- function(dat, colinds, thresh = NA, sensitivity = .001, type = "pearson"){
+cda_corr <- function(dat, colinds, thresh = NA, sensitivity = .001, type = "pearson"){
   
   #Load the igraph package
   require(igraph) 
