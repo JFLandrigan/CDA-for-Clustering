@@ -1,4 +1,4 @@
-cda_clustering_dist <- function(dat, colinds, thresh = NA,  sensitivity = .001, type = "euclidean"){
+cda_dist <- function(dat, colinds, thresh = NA,  sensitivity = .001, type = "euclidean"){
   
   #Load the igraph package.
   require(igraph)
